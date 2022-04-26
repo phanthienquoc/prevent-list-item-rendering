@@ -1,9 +1,10 @@
-import List from './components/List';
+import React, { useEffect, useState } from 'react';
+import InputLocation from './components/InputLocation';
 
 const App = () => {
   return (
-    <div className="App">
-      <List />
+    <div style={{ height: "100vh", width: "100vw" }}>
+      <InputLocation />
     </div>
   );
 }
