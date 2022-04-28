@@ -1,8 +1,15 @@
+import React from 'react';
+
+import { Box, Button, Typography } from '@mui/material';
+
 const App = () => {
   return (
-    <div className="App">
-      App
-    </div>
+    <Box className="App">
+      <Button variant={"dark"} color={"dark"}>
+        Acb
+      </Button>
+      <Typography variant={"dark"}>Acb</Typography>
+    </Box>
   );
 }
 
