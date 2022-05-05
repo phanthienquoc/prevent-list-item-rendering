@@ -1,10 +1,9 @@
-import List from './components/List';
+import React from "react";
+import AppRouter from "./routes";
 
 const App = () => {
   return (
-    <div className="App">
-      <List />
-    </div>
+    <AppRouter/>
   );
 }
 

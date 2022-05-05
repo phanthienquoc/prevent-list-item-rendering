@@ -1,0 +1,126 @@
+.login-container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 344px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.login-action {
+    margin-top: 16px;
+    display: flex;
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+label {
+    width: 100%;
+    margin-top: 8px;
+}
+
+input {
+    width: 100%;
+    height: 38px;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+input+input {
+    margin-top: 16px;
+}
+
+.login-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+button[type="submit"] {
+    padding: 8px 28px;
+    border: none;
+    /* Primary/Blue premium 500 */
+
+    background: #0084F4;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    color: #FFFFFF;
+}
+
+button+button {
+    margin-top: 16px;
+}
+
+.login-with-google-wrapper {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.login-with-google {
+    padding: 12px 16px;
+    width: 344px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+    position: relative;
+}
+
+.login-with-google .text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    display: flex;
+    align-items: center;
+
+    /* Gray 500/Gray 900 */
+
+    color: #000000;
+
+}
+
+.login-with-google::before {
+    content: "";
+    height: 24px;
+    width: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    background: url("../../../public/assets/icons/ic-google.svg");
+    position: absolute;
+    left: 16px;
+    top: 8px;
+}
